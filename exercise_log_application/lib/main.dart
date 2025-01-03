@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'view/exerciseSummery.dart';
-import 'view/excerciseForm.dart';
-import 'view/excerciseProvider.dart';
+import 'views/home/summeryView.dart';
+import 'views/exercise/excerciseForm.dart';
+import 'views/exercise/excerciseProvider.dart';
+import 'views/auth/loginView.dart';
 
 void main() {
   runApp(
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: LoginView(),
+      debugShowCheckedModeBanner: false, // Added this line
     );
   }
 }

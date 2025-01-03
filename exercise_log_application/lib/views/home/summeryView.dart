@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
-import './excerciseProvider.dart';
+import '../exercise/excerciseProvider.dart';
 
 class SummaryScreen extends StatelessWidget {
   @override

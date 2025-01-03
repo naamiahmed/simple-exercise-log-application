@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../models/exercise.dart';
-import './excerciseProvider.dart';
+import '../../models/exercise.dart';
+import 'excerciseProvider.dart';
 
 class ExerciseForm extends StatefulWidget {
   @override

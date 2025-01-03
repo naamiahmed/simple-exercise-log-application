@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import '../models/exercise.dart';
+import '../../models/exercise.dart';
 
 class ExerciseProvider with ChangeNotifier {
   List<Exercise> _exercises = [];
